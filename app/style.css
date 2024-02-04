@@ -1,0 +1,75 @@
+/* tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f0f4f8;
+}
+
+.container {
+   max-width: 600px;
+   margin: auto;
+   background-color: #ffffff;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   padding: 16px;
+   box-sizing: border-box;
+   margin-top: 40px;
+}
+
+h1 {
+   color: #4a5568;
+}
+
+input {
+   border: 1px solid #e2e8f0;
+   padding: 8px;
+   width: 75%;
+   border-radius: 4px;
+}
+
+button {
+   background-color: #4299e1;
+   color: #ffffff;
+   padding: 8px 16px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+button:hover {
+   background-color: #3182ce;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 16px 0;
+}
+
+li {
+   background-color: #edf2f7;
+   padding: 8px;
+   border-radius: 4px;
+   margin-bottom: 8px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+li button {
+   background-color: #e53e3e;
+   color: #ffffff;
+   padding: 4px 8px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+li button:hover {
+   background-color: #c53030;
+}
