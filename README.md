@@ -5,3 +5,4 @@ start the backend with docker run -i -t -p 80:3000 ghcr.io/openscript/course-zli
 
 more detailed documentation coming soon.
 really looking forward to finishing this project. Unfortunately, due to lacking knowledge, this will take some time. I'll be working on other projects until.
+for example, my blogpage will have a sufisticated backend.
